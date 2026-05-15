@@ -187,3 +187,36 @@ h2::before {
   right: -25px;
   cursor: pointer;
 }
+
+/*FLOATS*/
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /*padding-left: 80px;*/
+  /*padding-top: 10px;*/
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
