@@ -48,6 +48,7 @@
         /*gap: 30px;*/
         column-gap: 10px;
         row-gap: 40px;
+        display: none;
       }
 
       .el--8 {
@@ -71,8 +72,26 @@
         background-color: black;
         font-size: 40px;
         margin: 40px;
-        display: none;
+        width: 700px;
+        height: 600px;
+        gap: 50px;
+        /*CSS GRID*/
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        /*Aligning tracks inside container distribute empty place justify-content center*/
+        align-content: center;
+        /*align-content: space-between;*/
+        /*align-content: end;*/
+        /*align-content: start;*/
+        /*aligning items inside cells moving items around inside cells*/
+        align-items: center;
+        justify-items: center;
+      }
 
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
 
     </style>
