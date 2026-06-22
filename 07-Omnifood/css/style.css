@@ -218,6 +218,9 @@ grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
 
+grid--4-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
